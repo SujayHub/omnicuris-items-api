@@ -114,7 +114,7 @@ spring:
   passsword: your-password-here
 ```
 
-<li/> In the pom.xml file _**remove**_ the following dependency:
+* In the pom.xml file _**remove**_ the following dependency:
 
 ```xml
  <dependency>
@@ -124,7 +124,7 @@ spring:
  </dependency>
 ```
 
-<li/>and _**add**_ the following dependency:
+* and _**add**_ the following dependency:
 
 ```xml
 <dependency>
