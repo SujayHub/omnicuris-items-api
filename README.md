@@ -69,7 +69,7 @@ to change the port we can do the following:
      
      ```
      
-* _**application properties**_
+* _**using application properties**_
     * you can alter the value of the key `server: port` in the application.yml file in the following manner
      
      ```yaml
