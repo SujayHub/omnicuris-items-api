@@ -1,2 +1,2 @@
 # omnicuris-items-api
-Demo Item Api
+Demo Items Api
