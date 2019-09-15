@@ -1,0 +1,38 @@
+
+#server port
+server:
+  port: 8085
+
+#hibarnate logging
+logging:
+  file: "./logs/items-api.log"
+  max-size: 10 MB
+  level:
+    root: INFO
+    org:
+      springframework:
+        web: DEBUG
+      hibernate:
+        stat: DEBUG
+        type: TRACE
+  pattern:
+    file: "%d{yyyy-MM-dd } [%thread] %-5level %logger{36} - %msg%n"
+
+
+
+#H2 Console
+spring:
+  output:
+    ansi:
+      enabled: always
+  h2:
+    console:
+      enabled: true
+
+  #Jpa Show Quries and stats
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        generate_statistics: true
+    show-sql: true
